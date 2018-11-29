@@ -1,0 +1,5 @@
+﻿1>------ 已启动生成:  项目: runnina, 配置: Debug Win32 ------
+1>  runnian.c
+1>d:\akourou\闰年\闰年\runnian.c(17): warning C4013: “system”未定义；假设外部返回 int
+1>  闰年.vcxproj -> D:\Akourou\闰年\Debug\runnina.exe
+========== 生成:  成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
