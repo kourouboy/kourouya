@@ -1,0 +1,14 @@
+﻿生成启动时间为 2018/11/19 20:50:44。
+     1>项目“D:\Akourou\Project16\Project16\Project16.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013.5_ult_chs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+     1>d:\akourou\project16\project16\源.c(9): error C2070: “char (__cdecl *)()”:  非法的 sizeof 操作数
+     1>d:\akourou\project16\project16\源.c(18): warning C4047: “函数”:“char (__cdecl *)()”与“char [10]”的间接级别不同
+     1>d:\akourou\project16\project16\源.c(18): warning C4024: “test2”: 形参和实参 1 的类型不同
+     1>d:\akourou\project16\project16\源.c(20): warning C4013: “system”未定义；假设外部返回 int
+     1>已完成生成项目“D:\Akourou\Project16\Project16\Project16.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.14
