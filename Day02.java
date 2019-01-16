@@ -1,5 +1,5 @@
-// public class Day2{
-//     public static void main (String[] args){
+public class Day2{
+    public static void main (String[] args){
 //             //方法接收数组。
 //     //     int [] date = new int [] {1,2,3,4,5} ;
 //     //     printArray(date);//等价效果等于 int [] temp = date.
@@ -75,25 +75,26 @@
 
  // 对象数组
  //动态初始化。
-//  class Person {
-//      private String name;
-//      private int age;
-//      public Person (String name,int age){
-//          this.name = name;
-//          this.age = age;
-//      }
-//      public void getInfo(){
-//          System.out.println(this.name + this.age);
-//      }
-//  }
-//   public class Day2{
-//       public static void main (String[] args){
-//           Person[] per = new Person[3];
-//           per[0] = new Person ("judu  ",20);
-//           per[1] = new Person ("jsi  ",33);
-//           per[2] = new Person ("hdsh  ",54);
-//           for (int i = 0; i < per.length; i++){
-//               per[i].getInfo();
-//           }
+ class Person {
+     private String name;
+     private int age;
+     public Person (String name,int age){
+         this.name = name;
+         this.age = age;
+     }
+     public void getInfo(){
+         System.out.println(this.name + this.age);
+     }
+ }
+    public class Day02{
+      public static void main (String[] args){
+          Person[] per = new Person[3];
+          per[0] = new Person ("judu  ",20);
+          per[1] = new Person ("jsi  ",33);
+          per[2] = new Person ("hdsh  ",54);
+          for (int i = 0; i < per.length; i++){
+              per[i].getInfo();
+          }
       }
   }
+    }
